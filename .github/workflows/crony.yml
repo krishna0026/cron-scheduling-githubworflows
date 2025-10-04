@@ -1,7 +1,7 @@
 name: Scheduled Workflow
 
 on: 
-    scheduled:
+    schedule:
         - cron: "*/5 * * *" #Run on every 5 min
 jobs:
     builds: 
