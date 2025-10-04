@@ -2,7 +2,7 @@ name: Scheduled Workflow
 
 on: 
     schedule:
-        - cron: "*/5 * * *" #Run on every 5 min
+        - cron: "*/5 * * * *" #Run on every 5 min
 jobs:
     builds: 
         runs-on: ubuntu-latest
